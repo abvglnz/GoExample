@@ -1,6 +1,8 @@
 package stringutils
 
-// Length returns the length of s in bytes.
+import "unicode/utf8"
+
+// Length returns the number of characters in s.
 func Length(s string) int {
-	return len(s)
+	return utf8.RuneCountInString(s)
 }

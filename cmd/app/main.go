@@ -14,4 +14,5 @@ func main() {
 	fmt.Println(math.Pow(4, 6))
 	fmt.Println(gul.Polindrom(989))
 	fmt.Println(stringutils.Length("Hello World"))
+	fmt.Println(stringutils.Length("Сәлем"))
 }
