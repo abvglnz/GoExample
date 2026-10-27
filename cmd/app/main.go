@@ -5,6 +5,7 @@ import (
 	"math"
 
 	"MyProject/gul"
+	"MyProject/stringutils"
 )
 
 func main() {
@@ -12,4 +13,5 @@ func main() {
 	fmt.Println(gul.Fac(6))
 	fmt.Println(math.Pow(4, 6))
 	fmt.Println(gul.Polindrom(989))
+	fmt.Println(stringutils.Length("Hello World"))
 }
